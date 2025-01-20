@@ -1,0 +1,25 @@
+{
+    "name": "serVme/cms",
+    "description": "",
+    "authors": [
+        {
+            "name": "serVme Dev",
+            "email": "dev@servmeco.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Cms\\Providers\\CmsServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Cms\\": ""
+        }
+    }
+}

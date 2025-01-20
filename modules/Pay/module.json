@@ -1,0 +1,13 @@
+{
+    "name": "Pay",
+    "alias": "pay",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\Pay\\Providers\\PayServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

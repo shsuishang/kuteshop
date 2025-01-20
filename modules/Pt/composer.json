@@ -1,0 +1,25 @@
+{
+    "name": "serVme/pt",
+    "description": "",
+    "authors": [
+        {
+            "name": "serVme Dev",
+            "email": "dev@servmeco.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Pt\\Providers\\PtServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Pt\\": ""
+        }
+    }
+}

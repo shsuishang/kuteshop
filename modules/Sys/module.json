@@ -1,0 +1,13 @@
+{
+    "name": "Sys",
+    "alias": "sys",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\Sys\\Providers\\SysServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

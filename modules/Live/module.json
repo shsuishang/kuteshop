@@ -1,0 +1,13 @@
+{
+    "name": "Live",
+    "alias": "live",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\Live\\Providers\\LiveServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

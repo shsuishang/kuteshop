@@ -1,0 +1,25 @@
+{
+    "name": "serVme/analytics",
+    "description": "",
+    "authors": [
+        {
+            "name": "serVme Dev",
+            "email": "dev@servmeco.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Analytics\\Providers\\AnalyticsServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Analytics\\": ""
+        }
+    }
+}

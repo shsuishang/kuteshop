@@ -1,0 +1,13 @@
+{
+    "name": "O2o",
+    "alias": "o2o",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\O2o\\Providers\\O2oServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

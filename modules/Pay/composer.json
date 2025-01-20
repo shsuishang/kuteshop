@@ -1,0 +1,25 @@
+{
+    "name": "serVme/pay",
+    "description": "",
+    "authors": [
+        {
+            "name": "serVme Dev",
+            "email": "dev@servmeco.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Pay\\Providers\\PayServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Pay\\": ""
+        }
+    }
+}

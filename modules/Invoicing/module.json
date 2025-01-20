@@ -1,0 +1,13 @@
+{
+    "name": "Invoicing",
+    "alias": "invoicing",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\Invoicing\\Providers\\InvoicingServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

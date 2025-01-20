@@ -1,0 +1,25 @@
+{
+    "name": "serVme/invoicing",
+    "description": "",
+    "authors": [
+        {
+            "name": "serVme Dev",
+            "email": "dev@servmeco.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Invoicing\\Providers\\InvoicingServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Invoicing\\": ""
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Pt",
+    "alias": "pt",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\Pt\\Providers\\PtServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

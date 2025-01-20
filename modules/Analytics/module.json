@@ -1,0 +1,13 @@
+{
+    "name": "Analytics",
+    "alias": "analytics",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\Analytics\\Providers\\AnalyticsServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

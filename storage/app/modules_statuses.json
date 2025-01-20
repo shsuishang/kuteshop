@@ -1,0 +1,15 @@
+{
+    "Account": true,
+    "Pay": true,
+    "Admin": true,
+    "Cms": true,
+    "Sys": true,
+    "Shop": true,
+    "Trade": true,
+    "Invoicing": true,
+    "Pt": true,
+    "Analytics": true,
+    "Live": true,
+    "Marketing": true,
+    "O2o": true
+}

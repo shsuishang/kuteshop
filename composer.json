@@ -1,0 +1,60 @@
+{
+    "name": "laravel/lumen",
+    "description": "The Laravel Lumen Framework.",
+    "keywords": ["framework", "laravel", "lumen"],
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": "^8.0.2",
+        "aliyuncs/oss-sdk-php": "^2.6",
+        "giggsey/libphonenumber-for-php": "^8.13",
+        "gregwar/captcha": "^1.1",
+        "guzzlehttp/guzzle": "^7.5",
+        "illuminate/queue": "^9.52",
+        "illuminate/redis": "*",
+        "intervention/image": "^2.7",
+        "kuteshop/core": "dev-main",
+        "laravel/lumen-framework": "^9.0",
+        "overtrue/laravel-wechat": "^6.2",
+        "predis/predis": "^2.3",
+        "prettus/l5-repository": "^2.8",
+        "servme/lumen-modules": "^6.0",
+        "tymon/jwt-auth": "*",
+        "yansongda/pay": "^3.7"
+    },
+    "require-dev": {
+        "fakerphp/faker": "^1.9.1",
+        "mockery/mockery": "^1.4.4",
+        "phpunit/phpunit": "^9.5.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Database\\Factories\\": "database/factories/",
+            "Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "files": [
+            "app/Support/helpers.php"
+        ],
+        "psr-4": {
+            "Modules\\": "modules/"
+        }
+    },
+    "scripts": {
+        "post-root-package-install": [
+            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+        ]
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "allow-plugins": {
+            "easywechat-composer/easywechat-composer": true
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
