@@ -114,6 +114,23 @@ class ProductIndexCriteria extends Criteria
 
     protected function after($model)
     {
+        $sortable_columns = [
+            'product_id',
+            'product_order',
+            'product_add_time',
+            'product_sale_num',
+            'product_favorite_num',
+            'product_unit_price_min',
+            'product_unit_price_max',
+        ];
+        $column = $this->request->input('sidx');
+        $direction = $this->request->input('sort', 'asc');
+        if (in_array($column, $sortable_columns, true)
+            && is_string($direction)
+            && in_array(strtolower($direction), ['asc', 'desc'], true)) {
+            $model->orderBy($column, $direction);
+        }
+
         return $model->orderBy('product_order', 'ASC')->orderBy('product_id', 'DESC');
     }
 
